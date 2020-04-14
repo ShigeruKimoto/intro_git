@@ -7,3 +7,8 @@ git add
 git commit
 
 git rm
+
+git log
+git log --oneline
+
+git diff
