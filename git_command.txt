@@ -25,4 +25,11 @@ git commit -v　　変更差分を表示
 
 git status　　　 現在の状況を表示（前回からの変更）
 
+git log　　　　　　変更履歴を表示
+git log --oneline　変更履歴を1行で簡易表示
+git log -p (file)　（ファイルの）変更内容を確認
+git log -n x　　　 最新x個の変更履歴を表示
+ ex) git log --oneline -n3
 
+git diff　　　　ローカルとステージングエリアの差分を表示
+git diff head　 ステージングエリアとコミットとの差分を表示
