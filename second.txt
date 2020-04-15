@@ -1,4 +1,0 @@
-second.txt
-
-git add file
-git rm file
