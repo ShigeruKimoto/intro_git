@@ -33,3 +33,12 @@ git log -n x　　　 最新x個の変更履歴を表示
 
 git diff　　　　ローカルとステージングエリアの差分を表示
 git diff head　 ステージングエリアとコミットとの差分を表示
+
+
+
+git remote add origin https://github.com/ユーザ/リポジトリ	ローカルリポジトリをGitHubに登録する
+
+git push origin master　　ローカルリポジトリをリモートリポジトリに送信する
+
+
+
