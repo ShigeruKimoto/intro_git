@@ -41,4 +41,15 @@ git remote add origin https://github.com/ユーザ/リポジトリ	ローカル�
 git push origin master　　ローカルリポジトリをリモートリポジトリに送信する
 
 
+.gitignore　　Gitファイルの管理から外す
+　　ファイルを除外、ディレクトリ配下を除外
+
+　git rm file		コミットしたファイルをGitの管理から外す
+  git rm -r dir		コミットしたディレクトリ配下をGitの管理から外す
+
+　git rm --cached file	ファイルをGitの管理から外すがファイルは残す
+　　　　　　　　　　　　普通.gitignoreへの記載と併用する
+
+　git reset HEAD
+　git checkout file
 
